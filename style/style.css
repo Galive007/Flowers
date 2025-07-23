@@ -50,3 +50,12 @@ nav{
     margin-right: 10px;
 }
 
+/* responsive layer */
+@media screen and (max-width:576px) {
+    nav{
+        padding: 20px;
+    }
+    .nav-menu ul{
+        display: none;
+    }
+}
