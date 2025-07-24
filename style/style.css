@@ -30,7 +30,20 @@ body{
     max-width: 1140px;
     margin: auto;
 }
-
+.shared-tittle{
+    font-size: 50px;
+    font-weight: 700;
+}
+.shared-description{
+    color: var(--secondary-color);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-top-padding{
+    padding-top: 120px;
+}
 
 
 
@@ -61,7 +74,7 @@ nav{
 }
 /* banner section */
 .banner-container{
-    padding-top: 250px;
+    padding-top: 220px;
 }
 .banner-tittle{
     color: #000;
@@ -69,17 +82,44 @@ nav{
     font-style: normal;
     font-weight: 700;
 }
-.banner-tittle span{
+.banner-tittle span,
+.shared-tittle span{
     color: var(--primary-color);
 }
-.banner-description{
-    color: var(--secondary-color);
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+
+/* our plants */
+
+.our-plants{
+
+}
+.section-content{
+    max-width: 890px;
+    margin: auto;
 }
 
+.cards-container{
+    padding-top: 25px;
+    /* border: 1px solid red; */
+}
+.card-tittle{
+    color: #111;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    padding-top: 20px;
+}
+.card-cost{
+    color: #111;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 8px 0 20px;
+}
+.card-btn{
+    cursor: pointer;
+    width: 100%;
+    padding: 8px 0;
+}
 
 
 
@@ -97,10 +137,23 @@ nav{
     flex-direction: column-reverse;
     padding: 30px 0;
     }
-    .banner-tittle{
+    .banner-content,
+    .section-content{
+    padding: 0 20px;
+    }
+    .banner-tittle,
+    .shared-tittle{
     font-size: 24px;
     }
-    .banner-description{
+    .shared-description{
     font-size: 14px;
+    }
+    /* our plants section*/
+    .section-top-padding {
+    padding-top: 60px;
+    }
+    .cards-container{
+        padding: 20px 20px;
+        grid-template-columns: repeat(2,1fr);
     }
 }
