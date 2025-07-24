@@ -44,6 +44,10 @@ body{
 .section-top-padding{
     padding-top: 120px;
 }
+.hide{
+    display: none;
+}
+
 
 
 
@@ -149,8 +153,54 @@ nav{
 .plant-lover-content ul li{
     padding-bottom: 20px;
 }
-
-
+/* latest deal section */
+.img-container{
+    padding-top: 40px;
+}
+.img-up{
+    color: #f5f8ff;
+    width: 366px;
+    height: 206px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('../assets/deal-bloom.png') lightgray 50% / cover no-repeat;
+}
+.img-up h3,
+.img-down h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.img-up a,
+.img-down a,
+.img-right a{
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+}
+.img-down{
+    color: #f5f8ff;
+    width: 366px;
+    height: 206px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('../assets/deal-ana.png') lightgray 50% / cover no-repeat;
+}
+.img-right h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.img-right{
+    color: #f5f8ff;
+    width: 753px;
+    height: 424px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url('../assets/deal-zabo.png') lightgray 0px -78.437px / 115.538% 137.075% no-repeat;
+}
+/* colorful-bunch */
+.colorful-bunch{
+    margin-top: 100px;
+    height: 533px;
+    background: linear-gradient(0deg, rgba(7, 51, 79, 0.40) 0%, rgba(7, 51, 79, 0.40) 100%), url(../assets/news-letter-bg.png) lightgray 50% / cover no-repeat;
+}
 
 
 /* responsive layer */
@@ -196,5 +246,23 @@ nav{
     }
     .badge{
         display: none;
+    }
+    /* latest deal */
+    .img-container{
+        flex-direction: column;
+    }
+    .img-up,
+    .img-down,
+    .img-right{
+        width: 361px;
+        height: 200px;
+    }
+    .img-up a,
+    .img-down a,
+    .img-right a{
+    font-size: 16px;
+    }
+    .img-right h3{
+        font-size: 20px;
     }
 }
