@@ -197,11 +197,30 @@ nav{
 }
 /* colorful-bunch */
 .colorful-bunch{
+    color: #f5f8ff;
     margin-top: 100px;
     height: 533px;
     background: linear-gradient(0deg, rgba(7, 51, 79, 0.40) 0%, rgba(7, 51, 79, 0.40) 100%), url(../assets/news-letter-bg.png) lightgray 50% / cover no-repeat;
 }
-
+.colorful-bunch h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.bunch-btn{
+      
+}
+.colorful-bunch input{
+    width: 830px;
+    padding: 16px 30px;
+    color: #111;
+    background-color: #f5f8ff;
+    border: none;
+}
+.colorful-bunch button{
+    background-color: var(--primary-color);
+    padding: 16px 30px;
+}
 
 /* responsive layer */
 @media screen and (max-width:576px) {
@@ -265,4 +284,24 @@ nav{
     .img-right h3{
         font-size: 20px;
     }
+    /* colorful-bunch */
+.colorful-bunch{
+    margin-top: 30px;
+    height: 275px;
+    
+}
+.colorful-bunch h1{
+    font-size: 20px;
+}
+.bunch-btn{
+      
+}
+.colorful-bunch input{
+    width: auto;
+    padding: 8px 20px;
+    
+}
+.colorful-bunch button{
+    padding: 8px 20px;
+}
 }
