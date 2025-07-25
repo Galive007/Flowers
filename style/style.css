@@ -243,6 +243,12 @@ footer>ul li a{
 footer>ul li a:hover{
     color: var(--hover-color);
 }
+.footer-top{
+    margin-top: 10px;
+}
+
+
+
 
 /* responsive layer */
 @media screen and (max-width:576px) {
