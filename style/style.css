@@ -141,8 +141,9 @@ nav{
     position: absolute;
     top: -100px;
     right: -90px;
-    object-fit: cover;
+    
     /* box-shadow: -4px 10px 4px 0 rgba(0, 0, 0, 0.25); */
+    /* filter: drop-shadow(4px 10px 4px 0 grey); */
 }
 .plant-lover-content{
     padding-left: 50px;
@@ -231,16 +232,16 @@ footer{
 footer>div{
     flex: 1;
 }
-footer>ul li {
+.footer-menu>ul li {
     padding-bottom: 30px;
 }
-footer>ul li a{
+.footer-menu>ul li a{
     color: var(--menu-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
-footer>ul li a:hover{
+.footer-menu>ul li a:hover{
     color: var(--hover-color);
 }
 .footer-top{
@@ -336,10 +337,15 @@ footer>ul li a:hover{
     .footer-logo p{
     margin-top: 10px;
     }
+    .footer-menu{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
     footer>div{
     justify-content: start;
     }
-    footer>ul li {
+    .footer-menu>ul li {
     padding-bottom: 10px;
     }
 }
